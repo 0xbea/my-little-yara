@@ -1,6 +1,7 @@
 #!/bin/bash
 
-repos=("https://github.com/AlienVault-Labs/AlienVaultLabs/tree/master/malware_analysis")
+repos=("https://github.com/bartblaze/Yara-rules.git" "https://github.com/eset/malware-ioc/" "https://github.com/reversinglabs/reversinglabs-yara-rules" "https://github.com/Yara-Rules/rules")
+folders=("https://github.com/kevoreilly/CAPEv2/tree/master/data/yara" "https://github.com/Neo23x0/signature-base/tree/master/yara")
 
 for repo in "${repos[@]}"
 do
