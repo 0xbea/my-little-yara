@@ -1,0 +1,8 @@
+#!/bin/bash
+
+repos=("https://github.com/AlienVault-Labs/AlienVaultLabs/tree/master/malware_analysis")
+
+for repo in "${repos[@]}"
+do
+  git clone $repo
+done
