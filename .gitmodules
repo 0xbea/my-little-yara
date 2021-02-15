@@ -1,0 +1,15 @@
+[submodule "sources/sources"]
+	path = sources/sources
+	url = https://github.com/bartblaze/Yara-rules.git
+[submodule "sources/Yara-rules"]
+	path = sources/Yara-rules
+	url = https://github.com/bartblaze/Yara-rules.git
+[submodule "sources/malware-ioc"]
+	path = sources/malware-ioc
+	url = https://github.com/eset/malware-ioc/
+[submodule "sources/reversinglabs-yara-rules"]
+	path = sources/reversinglabs-yara-rules
+	url = https://github.com/reversinglabs/reversinglabs-yara-rules
+[submodule "sources/rules"]
+	path = sources/rules
+	url = https://github.com/Yara-Rules/rules

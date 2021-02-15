@@ -5,5 +5,5 @@ folders=("https://github.com/kevoreilly/CAPEv2/tree/master/data/yara" "https://g
 
 for repo in "${repos[@]}"
 do
-  git clone $repo
+  git pull $repo
 done
